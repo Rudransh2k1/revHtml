@@ -36,13 +36,18 @@
         We use anchor tag to create hypherlinks:
         <a href="https://www.google.com">Click Me: link goes inside href</a>
       </p>
-
-      <img src="./resume_pic.jpeg" alt="" style="height: 20%; width: 20%" />
+      <figure>
+        <img src="./resume_pic.jpeg" alt="" style="height: 20%; width: 20%" />
+        <figcaption>This is figure caption</figcaption>
+      </figure>
       <p>
         Alt attribute is used when image does not load. So caption inside alt
         shows up instead of it. Like in next image
       </p>
-      <img src="./resume_pic.jpe" alt="Not Found" />
+      <figure>
+        <img src="./resume_pic.jpe" alt="Not Found" />
+        <!-- <figcaption>This is figure caption</figcaption> -->
+      </figure>
       <h3>Inline & block Elements</h3>
       <p>
         <b>Inline:</b> They fit alongside each other on the same line. Eg:
@@ -52,6 +57,29 @@
       <a href="https://www.google.com">Click Me: link goes inside href</a>
 
       <p><b>Block:</b> They take up a whle block and move to another line.</p>
+      <div>
+        <h3>Entity Codes</h3>
+        <p>
+          Entity codes are special codes which are used in HTML which help in
+          printing some reserved characters like copyright logo things.
+          <br />They start with & and finish with ';' <br />'&lt;' This less
+          than is created using entity codes.
+        </p>
+      </div>
+      <div>
+        <h2><u>Semantic Markup</u></h2>
+        <p>
+          Elements used instead of div everywhere like header, section, footer,
+          etc.
+        </p>
+      </div>
+      <div>
+        <h3>Emmet</h3>
+        <p>
+          Used to create shortcuts like <b> 'nav>ul>li*3' </b>it will create a
+          nav tag with ul tag and 3 li
+        </p>
+      </div>
     </div>
   </body>
 </html>
